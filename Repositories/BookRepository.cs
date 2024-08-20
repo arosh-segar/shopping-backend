@@ -74,7 +74,8 @@ namespace shopping_books.Repositories
                     Category = b.Category,
                     Price = b.Price,
                     Rating = b.Rating,
-                    ImgUrl = b.ImgUrl
+                    ImgUrl = b.ImgUrl,
+                    Quantity = b.Quantity
                 })
                 .ToListAsync();
 
